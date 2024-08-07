@@ -2,7 +2,10 @@
 import withVideos from 'next-videos';
 
 const nextConfig = {
-  // Remove the output: 'export' line
+  output: 'export',
+  images: {
+    unoptimized: true, // Disable image optimization
+  },
 };
 
 export default withVideos(nextConfig);
