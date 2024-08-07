@@ -1,7 +1,6 @@
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
-import Head from 'next/head'
 
 export default function Home() {
   return (
@@ -11,6 +10,7 @@ export default function Home() {
         autoPlay
         muted
         loop
+        playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
       />
       <div className="relative z-10">
