@@ -11,6 +11,7 @@ const page = () => {
         autoPlay
         muted
         loop
+        playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
       />
       <div className="relative z-10">
