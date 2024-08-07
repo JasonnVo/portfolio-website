@@ -1,8 +1,7 @@
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
-import backgroundVideo from "../public/videos/background-video.mp4"; // Import the video
 import AboutSection from "./components/AboutSection";
-
+import Head from 'next/head'
 
 export default function Home() {
   return (
