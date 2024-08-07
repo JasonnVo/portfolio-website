@@ -27,7 +27,7 @@ const HeroSection = () => {
             <Image
               src="/images/memoji.png"
               alt="A Memoji representation of Jason Vo"
-              className='absolute transform -translate-x-1/2 -translate-y-[65px] top-1/2 left-1/2'
+              className='absolute transform -translate-x-1/2 -translate-y-[190px] top-1/2 left-1/2'
               width={300}
               height={300}
             />

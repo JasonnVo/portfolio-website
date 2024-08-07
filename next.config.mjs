@@ -2,11 +2,7 @@
 import withVideos from 'next-videos';
 
 const nextConfig = {
-  /* config options here */
-  output: 'export', // Enable static export
+  // Remove the output: 'export' line
 };
 
-export default {
-  ...nextConfig,
-  ...withVideos(),
-};
+export default withVideos(nextConfig);

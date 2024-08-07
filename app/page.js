@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="relative flex min-h-screen flex-col bg-[#121212] bg-opacity-60">
       <video
-        src={backgroundVideo}
+        src="/videos/background-video.mp4"
         autoPlay
         muted
         loop
