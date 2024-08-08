@@ -11,10 +11,13 @@ const tab_data = [
     content: (
       <ul className='font-sans list-disc pl-2'>
         <li>JavaScript</li>
+        <li>Typescript</li>
         <li>CSS</li>
         <li>HTML</li>
         <li>React</li>
+        <li>Tailwind CSS</li>
         <li>Node.js</li>
+        <li>Next.js</li>
         <li>Java</li>
         <li>C</li>
         <li>C++</li>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const DownloadButton = () => {
   const handleContactClick = () => {
-    window.location.href = "https://www.dropbox.com/scl/fi/xu3wrx6a3jhbuf8ioom0l/Resume.pdf?rlkey=6j05xj9h1p5jgdyr2pcmizf3w&st=g3lvxxlu&dl=0";
+    window.location.href = "https://www.dropbox.com/scl/fi/cjchxxdtfzia0s8pkzow8/Resume.pdf?rlkey=dcv1f9qi6al52awi3clto4ka0&st=m9eiflhv&dl=0";
   };
 
   return (
