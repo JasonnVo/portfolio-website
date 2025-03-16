@@ -56,7 +56,7 @@ const AboutSection = () => {
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='font-bold text-4xl text-white mb-4 font-sans'>About Me</h2>
           <p className='text-base font-sans'>
-          I am currently a senior at the University of Massachusetts Amherst working towards a B.S degree in Computer Science. 
+          Currently a senior at the University of Massachusetts Amherst working towards a B.S degree in Computer Science. 
           I have a strong passion for web development and aspire to become a full stack software engineer. 
           My plan is to graduate in spring semester 2025.
           </p>
