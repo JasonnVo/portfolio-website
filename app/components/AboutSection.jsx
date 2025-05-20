@@ -11,15 +11,19 @@ const tab_data = [
     content: (
       <ul className='font-sans list-disc pl-2'>
         <li>JavaScript</li>
-        <li>CSS</li>
-        <li>HTML</li>
-        <li>React</li>
-        <li>Node.js</li>
+        <li>TypeScript</li>
         <li>Java</li>
         <li>C</li>
         <li>C++</li>
         <li>Python</li>
+        <li>SQL</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>React</li>
+        <li>Node.js</li>
         <li>Express</li>
+        <li>Docker</li>
+        <li>PostgresSQL</li>
         <li>MongoDB</li>
       </ul>
     )
@@ -51,12 +55,7 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about-me.png" alt="Description of the image"width={500} height={500}/>
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-          <h2 className='font-bold text-4xl text-white mb-4 font-sans'>About Me</h2>
-          <p className='text-base font-sans'>
-          I am currently a senior at the University of Massachusetts Amherst working towards a B.S degree in Computer Science. 
-          I have a strong passion for web development and aspire to become a full stack software engineer. 
-          My plan is to graduate in spring semester 2025.
-          </p>
+          <h2 className='font-bold text-4xl text-white mb-4 font-sans'>Software Developer</h2>
           <div className='flex flex-row mt-8'>
           <TabButton
             selectTab={() => handleTabChange("skills")}
